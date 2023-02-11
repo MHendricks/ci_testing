@@ -1,0 +1,9 @@
+[report]
+show_missing = true
+
+[run]
+# Save coverage report as unique file name so we can combine multiple runs
+parallel=True
+# Use relative file paths so combining reports from multiple platforms will
+# combine consistently
+relative_files=True
